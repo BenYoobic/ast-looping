@@ -1,0 +1,83 @@
+
+# compiled output
+/dist
+dist/
+build/
+**/dist/
+/tmp
+/out-tsc
+*.log
+.**cache/
+/frontify
+
+**/*.vendor.bundle.*
+
+.ng_pkg_build/
+design-system/stencil/dist
+design-system/stencil/coverage
+design-system/stencil/www
+design-system/stencil/build
+design-system/stencil/src/components.d.ts
+design-system/build/lib
+design-system/stencil/www/
+design-system/**/src/components/**/__image_snapshots__/__diff_output__/
+design-system/stencil/static/public
+
+builds/**/mobile/www
+builds/**/mobile/node_modules/
+builds/**/mobile/platforms
+builds/**/mobile/plugins
+builds/**/mobile/bin
+builds/**/web/electron
+builds/**/web/dist
+
+frontify
+
+i18n/boost-merged
+i18n/operations-merged
+
+storybook/build
+storybook/design-system-assets/assets
+storybook/jest-test-results.json
+
+bundle-stats/
+
+test/integration/coverage
+
+# dependencies
+node_modules/
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+# .vscode/
+# .vscode/*
+# !.vscode/settings.json
+# !.vscode/tasks.json
+# !.vscode/launch.json
+# !.vscode/extensions.json
+
+# misc
+/.sass-cache
+/connect.lock
+coverage/
+/libpeerconnection.log
+npm-debug.log
+yarn-error.log
+testem.log
+/typings
+
+# System Files
+.DS_Store
+Thumbs.db
+.icloud
+
+design-system/stencil/src/components.d.ts
